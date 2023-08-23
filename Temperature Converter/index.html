@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="con1">
+            <img src="IMG/pic1.png" alt="error" height="40vh" width="70vw"> 
+                <h2>Tempteture Converter</h2>
+            </div>
+            <div class="con2">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">More</a></li>
+                    <li><a href="/">Contact us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <h3>Enter temperature in Celsius:</h3><br>
+        <input type="number" id="celsius" placeholder="Enter temperature" step="0.01"><br>
+        <p><h3>Convert into :-</h3></p>
+        <button onclick="convertTo('fahrenheit')">Fahrenheit</button>
+        <button onclick="convertTo('kelvin')">Kelvin</button>
+        <div id="result"></div>
+    </div>
+    </main>
+    <footer>
+        <p>Copyright &copy by Abhay Chaurasia</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
