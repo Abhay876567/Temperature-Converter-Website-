@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(36, 12, 53);
+    color: white;
+    height: 8.5vh;
+    font-size: 3vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.con1{
+    display: flex;
+    margin-top: 1.3vh;
+}
+.con1 img{
+    margin-right: 1.5vw;
+}
+.con2 ul {
+    display: flex;
+    align-items: center;
+    padding-top: 2vh;
+}
+
+.con2 ul li {
+    list-style: none;
+    margin: 0 2vw;
+}
+
+.con2 ul li :hover {
+    color: rgb(199, 182, 182);
+    font-size: 3.02vh;
+}
+
+.con2 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    font-family: Arial, sans-serif;
+    background-color: rgb(72, 35, 112);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 83vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 30vh;
+}
+
+.container h3{
+    margin-top: 1vh;
+}
+.container p{
+    margin-top: 2vh;
+}
+.container input{
+    padding-left: 0.5vw;
+    height: 3vh;
+}
+button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    height: 6vh;
+    color: white;
+    background-color: rgb(36, 12, 53);
+    padding-top: 2.5vh;
+    text-align: center;
+}
+#result{
+    margin-top: 1vh;
+}
